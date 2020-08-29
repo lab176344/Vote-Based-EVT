@@ -32,3 +32,14 @@ Step 1: To train CIFAR CNN and extract features run `sh Scripts\CIFAR_CNN_Extrac
 Step 2: Evaulation can be done by using the script `\Cifar\RF+EVT\VoteBasedEVTStat.py`
 
 ## Traffic Scenarios<a name="ts"></a>
+
+The traffic scenarios are generated from the HighD Dataset [1]. Please fill in the forms to request access to the HighD Data from https://www.highd-dataset.com/. 
+
+Step 1: Generate scenario categories using the script `\Traffic_Scenarios\highD_generate_scenarios.m`, occupancy grids will be generated for the scenarios and saved for CNN+RF training
+
+Step 2: Train the CNN and extract features for traffic scenarios using `python \Traffic_Scenarios\RF+EVT\ScenarioBasic.py`, followed by that to train the vote based model run the script `\Traffic_Scenarios\RF+EVT\Vote_Based_EVT.m`
+
+Step 3:  Evaulation can be done by using the script `\Traffic_Scenarios\RF+EVT\VoteBasedEVTStat.py`
+
+## Reference
+[1] The highD Dataset: A Drone Dataset of Naturalistic Vehicle Trajectories on German Highways for Validation of Highly Automated Driving Systems, Krajewski et al., ITSC 2018
