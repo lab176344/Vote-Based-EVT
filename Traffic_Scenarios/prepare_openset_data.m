@@ -73,7 +73,7 @@ y_openset = [y_openset; 6*ones(107,1)];
 x_openset = [x_openset; ogFoll(501:650,:,:,:)];
 y_openset = [y_openset; 8*ones(150,1)];
 
-save('HighDScenarioNew9Class.mat','X_train','y_train','X_test','y_test','x_openset','y_openset');
+save('HighDScenarioClass.mat','X_train','y_train','X_test','y_test','x_openset','y_openset');
 
 function [Ogs_shuffled]=shuffle_dataset(Ogs)
 rand_pos = randperm(size(Ogs,1)); %array of random positions
