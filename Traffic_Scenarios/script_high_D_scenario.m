@@ -14,7 +14,6 @@ CritMeasures = [THW_thr];
 critUsed = THW_thr;
 counter1 = 0;
 
-% Counters and empty matrices for Lakshman 3 ScenarioTypes
 cntType1 = 1;  % Lane Change EGO
 cntType2 = 1;  % Dec Following
 cntType3 = 1;  % Left Cut-In
