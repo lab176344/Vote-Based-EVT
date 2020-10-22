@@ -57,8 +57,12 @@ X_test = [X_test; ogFoll(TeData:TData+Tlimit,:,:,:)];
 y_test = [y_test; 8*ones(size(ogFoll(TeData:TData+Tlimit,:,:,:),1),1)];
 
 
+X_train1 = X_train(1:2500,:,:,:);
+X_train2 = X_train(2501:end,:,:,:);
 
-save('HighDScenarioClass.mat','X_train','y_train','X_test','y_test');
+save('HighDScenarioClassV1_Train.mat','X_train1',...
+    'X_train2','y_train')
+save('HighDScenarioClassV1_Test.mat','X_test','y_test');
 
 function [Ogs_shuffled]=shuffle_dataset(Ogs)
 rand_pos = randperm(size(Ogs,1)); %array of random positions
