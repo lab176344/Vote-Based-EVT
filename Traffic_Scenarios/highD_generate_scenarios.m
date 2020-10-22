@@ -1,3 +1,3 @@
 script_high_D_scenario;
 data_prepare_save;
-highD_generate_scenarios;
+prepare_openset_data;
