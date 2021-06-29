@@ -1,7 +1,6 @@
 ## Vote-Based-EVT
 
-The official code for the repo: Open-set Recognition for the Detection of Unknown Classes Based on theCombination of Convolutional Neural Networks and Random Forests from Intelligent Vehicles 2021
-
+The official code for the repo: Open-set Recognition for the Detection of Unknown Classes Based on theCombination of Convolutional Neural Networks and Random Forests 
 ## Dependencies
 - Python (>=3.6)
 - scikit-learn (0.21.0)
